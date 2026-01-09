@@ -1,6 +1,6 @@
-# PShade Ultimate
+# vyhthen Fx
 
-Pshade Ultimate Is A Shader Roblox shaders exploit that using roblox internal lighting
+vyhthen Fx Is A Shader Roblox shaders exploit that using roblox internal lighting
 ---
 
 ## Features
@@ -15,7 +15,7 @@ Pshade Ultimate Is A Shader Roblox shaders exploit that using roblox internal li
 ## How to Use
 
 1. **Download an Executor** (such as Solara, wave, or any other Roblox script executor).
-2. **Get the PShade Ultimate Script:** [pshade ultimate copy](https://randomstring0.github.io/pshade.github.io/)
+2. **Get the vyhthen Fx Script:** [vyhthen Fx Discord](https://discord.gg/uzVVxHjKbQ)
 3. **Execute the Script:** Paste the script into your executor and run it.
 4. **Enjoy Enhanced Graphics!**
 
@@ -35,3 +35,6 @@ This tool is provided for educational purposes only. Use responsibly and at your
 
 
 > **Note:** Be mindful of Roblox's terms of service and community guidelines when using exploits.
+
+
+---

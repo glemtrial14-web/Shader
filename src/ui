@@ -113,7 +113,7 @@ PATRICKSHADER["c"]["BackgroundTransparency"] = 1;
 PATRICKSHADER["c"]["RichText"] = true;
 PATRICKSHADER["c"]["Size"] = UDim2.new(0.34429, 0, 1, 0);
 PATRICKSHADER["c"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-PATRICKSHADER["c"]["Text"] = [[ Pshade ultimate]];
+PATRICKSHADER["c"]["Text"] = [[ vyhthen Fx shader]];
 PATRICKSHADER["c"]["Name"] = [[maintitle]];
 
 
@@ -141,7 +141,7 @@ PATRICKSHADER["e"]["BackgroundTransparency"] = 1;
 PATRICKSHADER["e"]["RichText"] = true;
 PATRICKSHADER["e"]["Size"] = UDim2.new(0.18289, 0, 0.59091, 0);
 PATRICKSHADER["e"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-PATRICKSHADER["e"]["Text"] = [[patrick shaders]];
+PATRICKSHADER["e"]["Text"] = [[vyhthen shaders]];
 PATRICKSHADER["e"]["Name"] = [[secondtitle]];
 PATRICKSHADER["e"]["Position"] = UDim2.new(0.35131, 0, 0.40909, 0);
 
@@ -599,7 +599,7 @@ PATRICKSHADER["43"]["BackgroundTransparency"] = 1;
 PATRICKSHADER["43"]["RichText"] = true;
 PATRICKSHADER["43"]["Size"] = UDim2.new(0.98164, 0, 0.63497, 0);
 PATRICKSHADER["43"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-PATRICKSHADER["43"]["Text"] = [[welcome to pshade reborn]];
+PATRICKSHADER["43"]["Text"] = [[welcome to vyhthen Fx]];
 PATRICKSHADER["43"]["LayoutOrder"] = 1;
 PATRICKSHADER["43"]["Name"] = [[title]];
 PATRICKSHADER["43"]["Position"] = UDim2.new(0.01845, 0, 0, 0);
@@ -691,7 +691,7 @@ PATRICKSHADER["4c"]["TextColor3"] = Color3.fromRGB(217, 217, 217);
 PATRICKSHADER["4c"]["BackgroundTransparency"] = 1;
 PATRICKSHADER["4c"]["Size"] = UDim2.new(0.60067, 0, 1, 0);
 PATRICKSHADER["4c"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-PATRICKSHADER["4c"]["Text"] = [[@Im_Patrick]];
+PATRICKSHADER["4c"]["Text"] = [[@vyhthen]];
 PATRICKSHADER["4c"]["Position"] = UDim2.new(0.12081, 0, 0, 0);
 
 
@@ -713,7 +713,7 @@ PATRICKSHADER["4e"]["RichText"] = true;
 PATRICKSHADER["4e"]["Size"] = UDim2.new(0.30537, 0, 1, 0);
 PATRICKSHADER["4e"]["Name"] = [[button]];
 PATRICKSHADER["4e"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-PATRICKSHADER["4e"]["Text"] = [[subscribe]];
+PATRICKSHADER["4e"]["Text"] = [[Discord]];
 PATRICKSHADER["4e"]["Position"] = UDim2.new(0.69463, 0, 0, 0);
 
 
@@ -740,7 +740,7 @@ PATRICKSHADER["51"]["BackgroundTransparency"] = 1;
 PATRICKSHADER["51"]["RichText"] = true;
 PATRICKSHADER["51"]["Size"] = UDim2.new(0.84615, 0, 0.73913, 0);
 PATRICKSHADER["51"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-PATRICKSHADER["51"]["Text"] = [[subscribe]];
+PATRICKSHADER["51"]["Text"] = [[Discord]];
 PATRICKSHADER["51"]["Position"] = UDim2.new(0.07692, 0, 0.13043, 0);
 
 
@@ -1076,7 +1076,7 @@ PATRICKSHADER["71"]["Position"] = UDim2.new(0, 0, 0.08136, 0);
 PATRICKSHADER["71"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 PATRICKSHADER["71"]["Text"] = [[]];
 PATRICKSHADER["71"]["BackgroundTransparency"] = 0.5;
-PATRICKSHADER["71"]["PlaceholderText"] = [[provide feedback with good and clear language and please only provide feedback that is only related to pshade ultimate from https://randomstring0.github.io/pshade.github.io/ and not other scripts because other scripts or fake version are not made by us and have no relation whatsoever to pshade]];
+PATRICKSHADER["71"]["PlaceholderText"] = [[provide feedback with good and clear language and please only provide feedback that is only related to vyhthen Fx]];
 PATRICKSHADER["71"]["PlaceholderColor3"] = Color3.fromRGB(25,25,25);
 
 -- StarterGui.newui.mainmage.main.mainpage.showpage.feedback.TextBox.UICorner
@@ -2201,7 +2201,7 @@ PATRICKSHADER["ed"]["BackgroundTransparency"] = 1;
 PATRICKSHADER["ed"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
 PATRICKSHADER["ed"]["Size"] = UDim2.new(0.82851, 0, 0.51329, 0);
 PATRICKSHADER["ed"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-PATRICKSHADER["ed"]["Text"] = [[welcome to pshade ultimate]];
+PATRICKSHADER["ed"]["Text"] = [[welcome to vyhthen Fx]];
 PATRICKSHADER["ed"]["Position"] = UDim2.new(0.5, 0, 0.5, 0);
 
 

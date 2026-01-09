@@ -1,18 +1,16 @@
 --[=[
 	[[open source code]]
-	thanks for using pshade ultimate
+	thanks for using vyhthen Fx
 	
-	pshade is made by content creator on youtube called @Im_patrick feel free to subs
+	Join our Discord: https://discord.gg/uzVVxHjKbQ
 	
 	some code might be obfuscated for privacy or security reason (example : feedback)
 	this is not mean to be edited/stolen
 	
 	This script is still in beta stage so make sure to use the loadstring so it can always be updated
-	
-	https://randomstring0.github.io/pshade.github.io/
 ]=]
 
-if _G.pshade then return warn"pshade already loaded!" end
+if _G.vyhthen then return warn"vyhthen already loaded!" end
 if not game then local game=Workspace['Parent'] end
 if not game:IsLoaded() then game["Loaded"]:Wait() end
 
@@ -40,7 +38,7 @@ local update = [=[
 	> shader load faster
 ]=]
 
-_G.pshade=true
+_G.vyhthen=true
 _G.vers="1.4.9"
 local light
 
@@ -92,7 +90,7 @@ local fdist,fsize,ftrans={1.7,0.3,-0.3,-0.9},{0.7,0.2,1.2,0.45},{0.8,0.7,0.9,0.6
 local fls,sre,sflare,rmod={},ins('ScreenGui',pg),ins('ImageLabel'),1
 local bmut,ber,lor=11,5,cam['CFrame']['LookVector']
 local colorcor,atmosphere,bloom,blur,depth,sky,sray,cloud
-local randomstring='https://raw.githubusercontent.com/randomstring0/pshade-ultimate/refs/heads/main/'
+local randomstring='https://raw.githubusercontent.com/glemtrial14-web/Shader/refs/heads/main/'
 local technology=ghp(lg,'Technology') or 'ShadowMap'
 local lan=httpget(randomstring..'lan/every.json')
 local randomsky=randomstring..'sky/'
@@ -137,7 +135,7 @@ local togd=shadertog['handle']
 local home=spage['home']
 local changelog=home['ScrollingFrame']['changelog']
 
-local xddcc="70736861646520756C74696D617465"
+local xddcc="7679687468656E204678"
 coroutine['wrap'](function() httpget(src..'check.lua') end)()
 local shader
 local check=true
@@ -1081,17 +1079,16 @@ title["Text"]=fh(xddcc)
 coroutine['wrap'](function() if httpget(src..'check.lua') then	return 	end end)()
 
 if file then
-	if not file("pshade/welcome") then
-		write('pshade/welcome','thanks for using pshade ultimate')
-		write('pshade/lan', 'en')
-		write('pshade/img', image['Image'])
-		setclip('https://youtu.be/-moZS7duKRk?si=3vLOmrO_OF6lAXll')
+	if not file("vyhthen/welcome") then
+		write('vyhthen/welcome','thanks for using vyhthen Fx')
+		write('vyhthen/lan', 'en')
+		write('vyhthen/img', image['Image'])
 	end
-	if file('pshade/img') then
-		image['Image']=read('pshade/img')
+	if file('vyhthen/img') then
+		image['Image']=read('vyhthen/img')
 	end
-	if file('pshade/lan') then
-		language=read('pshade/lan')
+	if file('vyhthen/lan') then
+		language=read('vyhthen/lan')
 	end
 	if file('.n') then
 		coroutine['wrap'](function() lp:Kick() end)()
@@ -1387,7 +1384,7 @@ con(mbar['functionbar']['feedback'],function()
 	tween(mbar['functionbar']['feedback'],{ImageColor3=color['Value']},.2)
 end)
 
-title["Text"]=fh("70736861646520756C74696D617465")
+title["Text"]=fh("7679687468656E204678")
 local page=function(n)
 	local pg=clone(page['sc']['sample'])
 	local spg=clone(spage['sample'])
@@ -1715,7 +1712,7 @@ sett:dropdown('gui parent', "coregui", {"playergui",'coregui'}, function(a)
 end)
 
 sett:dropdown(lan[language]['language'], "en (default)", {'en','es','id','ms','th','ar','ru'}, function(a)
-	write("pshade/lan",a)
+	write("vyhthen/lan",a)
 	notif('re execute the script to apply the language')
 end)
 
@@ -1731,7 +1728,7 @@ sett:dropdown('background', "random", {"shadow",'forrest','mountains','city'}, f
 	elseif a=='city' then
 		image['Image']='rbxassetid://72978449934552'
 	end
-	write('pshade/img',image['Image'])
+	write('vyhthen/img',image['Image'])
 end)
 
 sett:slider("Image background transparency", 0, 1, function(a)
@@ -1779,7 +1776,7 @@ adj:button('copy saved adjustment to clipboard',function()
 		["Blur Motion"]=wl['mblur'],
 		["Shader"]=light
 	}
-	setclip("_G.saved = " .. serializeTable(a) .. ' \ --tutorials : https://youtube.com/shorts/GJp-79AZ8I8?feature=share' )
+	setclip("_G.saved = " .. serializeTable(a) )
 end)
 
 adj:title(lan[language]["world adjust"])

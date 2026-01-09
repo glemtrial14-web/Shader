@@ -1,6 +1,6 @@
 return {
 	en={
-		['welcome']='welcome to pshade ultimate',
+		['welcome']='welcome to vyhthen Fx',
 		['shader']='shaders',
 		['shaderlite']='shaders lite',
 		['shadercolorlite']='shaders color lite',
@@ -57,7 +57,7 @@ return {
 		['background image theme']='background image theme'
 	},
 	es={
-		['welcome']='bienvenido a pshade ultimate',
+		['welcome']='bienvenido a vyhthen Fx',
 		['shader']='sombras',
 		['shaderlite']='sombras ligeras',
 		['shadercolorlite']='sombras de color ligeras',
@@ -113,7 +113,7 @@ return {
 		['background image theme']='tema de imagen de fondo'
 	},
 	id={
-		['welcome']='selamat datang di pshade ultimate',
+		['welcome']='selamat datang di vyhthen Fx',
 		['shader']='shader',
 		['shaderlite']='shader ringan',
 		['shadercolorlite']='shader warna ringan',
@@ -169,7 +169,7 @@ return {
 		['background image theme']='tema gambar latar'
 	},
 	ar={
-		['welcome']='مرحبًا بك في Pshade Ultimate',
+		['welcome']='مرحبًا بك في vyhthen Fx',
 		['shader']='الظل',
 		['shaderlite']='ظل خفيف',
 		['shadercolorlite']='ظل لون خفيف',
@@ -225,7 +225,7 @@ return {
 		['background image theme']='سمة صورة الخلفية'
 	},
 	ms={
-		['welcome']='selamat datang ke Pshade Ultimate',
+		['welcome']='selamat datang ke vyhthen Fx',
 		['shader']='bayang-bayang',
 		['shaderlite']='bayang-bayang ringan',
 		['shadercolorlite']='bayang warna ringan',
@@ -281,7 +281,7 @@ return {
 		['background image theme']='tema imej latar'
 	},
 	ru={
-		['welcome']='добро пожаловать в Pshade Ultimate',
+		['welcome']='добро пожаловать в vyhthen Fx',
 		['shader']='шейдеры',
 		['shaderlite']='облегчённые шейдеры',
 		['shadercolorlite']='облегчённые цветные шейдеры',
@@ -337,7 +337,7 @@ return {
 		['background image theme']='тема фонового изображения'
 	},
 	th={
-		['welcome']='ยินดีต้อนรับสู่ Pshade Ultimate',
+		['welcome']='ยินดีต้อนรับสู่ vyhthen Fx',
 		['shader']='เชดเดอร์',
 		['shaderlite']='เชดเดอร์แบบเบา',
 		['shadercolorlite']='เชดเดอร์สีแบบเบา',
