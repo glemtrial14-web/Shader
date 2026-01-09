@@ -44,9 +44,16 @@ PATRICKSHADER["4"]["CornerRadius"] = UDim.new(0.05, 0);
 
 -- StarterGui.newui.mainmage.main.UIStroke
 PATRICKSHADER["5"] = Instance.new("UIStroke", PATRICKSHADER["3"]);
-PATRICKSHADER["5"]["Enabled"] = false;
-PATRICKSHADER["5"]["Transparency"] = 0.72;
-PATRICKSHADER["5"]["Color"] = Color3.fromRGB(181, 181, 181);
+PATRICKSHADER["5"]["Enabled"] = true;
+PATRICKSHADER["5"]["Transparency"] = 0;
+PATRICKSHADER["5"]["Thickness"] = 3;
+PATRICKSHADER["5"]["Color"] = Color3.fromRGB(255, 255, 255);
+local main_gradient = Instance.new("UIGradient", PATRICKSHADER["5"])
+main_gradient.Color = ColorSequence.new{
+    ColorSequenceKeypoint.new(0, Color3.fromRGB(255, 0, 0)), 
+    ColorSequenceKeypoint.new(1, Color3.fromRGB(0, 0, 255))
+}
+main_gradient.Rotation = 45;
 
 
 -- StarterGui.newui.mainmage.main.mainbar
@@ -83,9 +90,16 @@ PATRICKSHADER["9"]["FillDirection"] = Enum.FillDirection.Horizontal;
 
 -- StarterGui.newui.mainmage.main.mainbar.Frame.UIStroke
 PATRICKSHADER["a"] = Instance.new("UIStroke", PATRICKSHADER["7"]);
-PATRICKSHADER["a"]["Enabled"] = false;
-PATRICKSHADER["a"]["Transparency"] = 0.56;
-PATRICKSHADER["a"]["Color"] = Color3.fromRGB(181, 181, 181);
+PATRICKSHADER["a"]["Enabled"] = true;
+PATRICKSHADER["a"]["Transparency"] = 0;
+PATRICKSHADER["a"]["Thickness"] = 2;
+PATRICKSHADER["a"]["Color"] = Color3.fromRGB(255, 255, 255);
+local bar_gradient = Instance.new("UIGradient", PATRICKSHADER["a"])
+bar_gradient.Color = ColorSequence.new{
+    ColorSequenceKeypoint.new(0, Color3.fromRGB(255, 0, 0)), 
+    ColorSequenceKeypoint.new(1, Color3.fromRGB(0, 0, 255))
+}
+bar_gradient.Rotation = 45;
 
 
 -- StarterGui.newui.mainmage.main.mainbar.Frame.Frame
@@ -192,8 +206,12 @@ PATRICKSHADER["13"]["Position"] = UDim2.new(0.232, 0, 0, 0);
 
 -- StarterGui.newui.mainmage.main.mainbar.Frame.functionbar.minimize.UIStroke
 PATRICKSHADER["14"] = Instance.new("UIStroke", PATRICKSHADER["13"]);
-PATRICKSHADER["14"]["Transparency"] = 0.56;
-PATRICKSHADER["14"]["Color"] = Color3.fromRGB(181, 181, 181);
+PATRICKSHADER["14"]["Transparency"] = 0;
+PATRICKSHADER["14"]["Thickness"] = 1.5;
+PATRICKSHADER["14"]["Color"] = Color3.fromRGB(255, 255, 255);
+local min_grad = Instance.new("UIGradient", PATRICKSHADER["14"])
+min_grad.Color = ColorSequence.new{ColorSequenceKeypoint.new(0, Color3.fromRGB(255, 0, 0)), ColorSequenceKeypoint.new(1, Color3.fromRGB(0, 0, 255))}
+min_grad.Rotation = 45;
 
 
 -- StarterGui.newui.mainmage.main.mainbar.Frame.functionbar.minimize.UICorner
@@ -221,8 +239,12 @@ PATRICKSHADER["17"]["CornerRadius"] = UDim.new(0.2, 0);
 
 -- StarterGui.newui.mainmage.main.mainbar.Frame.functionbar.feedback.UIStroke
 PATRICKSHADER["18"] = Instance.new("UIStroke", PATRICKSHADER["16"]);
-PATRICKSHADER["18"]["Transparency"] = 0.52;
-PATRICKSHADER["18"]["Color"] = Color3.fromRGB(181, 181, 181);
+PATRICKSHADER["18"]["Transparency"] = 0;
+PATRICKSHADER["18"]["Thickness"] = 1.5;
+PATRICKSHADER["18"]["Color"] = Color3.fromRGB(255, 255, 255);
+local feed_grad = Instance.new("UIGradient", PATRICKSHADER["18"])
+feed_grad.Color = ColorSequence.new{ColorSequenceKeypoint.new(0, Color3.fromRGB(255, 0, 0)), ColorSequenceKeypoint.new(1, Color3.fromRGB(0, 0, 255))}
+feed_grad.Rotation = 45;
 
 
 -- StarterGui.newui.mainmage.main.mainbar.Frame.functionbar.setting
@@ -245,8 +267,12 @@ PATRICKSHADER["1a"]["CornerRadius"] = UDim.new(0.2, 0);
 
 -- StarterGui.newui.mainmage.main.mainbar.Frame.functionbar.setting.UIStroke
 PATRICKSHADER["1b"] = Instance.new("UIStroke", PATRICKSHADER["19"]);
-PATRICKSHADER["1b"]["Transparency"] = 0.52;
-PATRICKSHADER["1b"]["Color"] = Color3.fromRGB(181, 181, 181);
+PATRICKSHADER["1b"]["Transparency"] = 0;
+PATRICKSHADER["1b"]["Thickness"] = 1.5;
+PATRICKSHADER["1b"]["Color"] = Color3.fromRGB(255, 255, 255);
+local set_grad = Instance.new("UIGradient", PATRICKSHADER["1b"])
+set_grad.Color = ColorSequence.new{ColorSequenceKeypoint.new(0, Color3.fromRGB(255, 0, 0)), ColorSequenceKeypoint.new(1, Color3.fromRGB(0, 0, 255))}
+set_grad.Rotation = 45;
 
 
 -- StarterGui.newui.mainmage.main.UIListLayout
